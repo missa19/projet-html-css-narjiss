@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ece3cd;
+            backdrop-filter: blur(20px); 
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .comment {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        .comment p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .comment .author {
+            font-weight: bold;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body   style="background-image: url('narciss 1.jpg');">
+    <div class="container">
+        <h1>Commentaires</h1>
+
+        <div class="comment">
+            <p><span class="author">Michael</span>: It was quiet (considering/ inside) and had hot water and clean and had air conditioning
+</p>
+        </div>
+
+        <div class="comment">
+            <p><span class="author">Dawn</span>:The staff are so friendly and helpful and the room was comfortable and clean, you couldn't get a better location for food, shopping , tours and culture
+
+                .There's no kettle in the room but access to free coffee downstairs and my room was tiny but suited me perfectly as I was one</p>
+        </div>
+        <div class="comment">
+            <p><span class="author">David</span>:Great location, busy street outside but you wouldn't know it once in your room. All the staff were friendly and helpful. They even stored our luggage whilst we went on a 3 day trip.</p>
+        </div>
+        <div class="comment">
+            <p><span class="author">Michael </span>:Great price for the location, only a short walk to the action, staff were pleasant, wifi worked, decent budget hotel.</p>
+        </div>
+        <div class="comment">
+            <p><span class="author">Dace</span>:Very tasty coffee! Whenever you want!</p>
+        </div>
+        <form action="#" method="POST">
+            <textarea name="comment" id="comment" rows="4" placeholder="Ajouter un commentaire..." required></textarea><br>
+            <input type="submit" value="Publier le commentaire">
+        </form>
+    </div>
+</body>
+</html>
